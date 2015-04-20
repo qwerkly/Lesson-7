@@ -1,0 +1,16 @@
+//
+//  IBPrefixHeader.pch
+//  Lesson 3
+//
+//  Created by mac on 20.04.15.
+//
+//
+
+#ifndef Lesson_3_IBPrefixHeader_pch
+#define Lesson_3_IBPrefixHeader_pch
+
+#import "IBHeader.h"
+#import "NSNotificationCenter+Notific.h"
+
+
+#endif

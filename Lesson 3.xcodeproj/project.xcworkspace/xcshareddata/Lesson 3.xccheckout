@@ -10,31 +10,31 @@
 	<string>Lesson 3</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>5D545D162E14097D27A32B529FCDD8A4040D5D1B</key>
-		<string>https://github.com/qwerkly/Lesson-5.git</string>
+		<key>3964043BA3545E15FF6EB1415BE70C1E25DCA7DE</key>
+		<string>https://github.com/qwerkly/Lesson-7.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Lesson 4/Lesson 3.xcodeproj</string>
+	<string>Lesson 3.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>5D545D162E14097D27A32B529FCDD8A4040D5D1B</key>
-		<string>../../..</string>
+		<key>3964043BA3545E15FF6EB1415BE70C1E25DCA7DE</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/qwerkly/Lesson-5.git</string>
+	<string>https://github.com/qwerkly/Lesson-7.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>5D545D162E14097D27A32B529FCDD8A4040D5D1B</string>
+	<string>3964043BA3545E15FF6EB1415BE70C1E25DCA7DE</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>5D545D162E14097D27A32B529FCDD8A4040D5D1B</string>
+			<string>3964043BA3545E15FF6EB1415BE70C1E25DCA7DE</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Lesson-5</string>
+			<string>Lesson-7</string>
 		</dict>
 	</array>
 </dict>

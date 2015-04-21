@@ -15,4 +15,8 @@
 
 +(void) delete_Notif;
 
++(void) call_Notif : (NSString *) name_Notif;
+
++(void) call_Notif : (NSString *) name_Notif Dictionary:(NSDictionary *) dictionary;
+
 @end

@@ -16,6 +16,18 @@
     
 }
 
++(void) call_Notif : (NSString *) name_Notif Dictionary:(NSDictionary *) dictionary {
+    
+    [[NSNotificationCenter defaultCenter]postNotificationName:name_Notif object:nil userInfo:dictionary];
+    
+}
+
++(void) call_Notif : (NSString *) name_Notif {
+    
+    [[NSNotificationCenter defaultCenter]postNotificationName:name_Notif object:nil];
+    
+}
+
 +(void) delete_Notif {
     
     [[NSNotificationCenter defaultCenter]removeObserver:self];

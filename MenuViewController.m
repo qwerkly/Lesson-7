@@ -56,18 +56,23 @@
 
 - (IBAction)switch_One:(id)sender {
     UISwitch * switchUI = (UISwitch *) sender;
-    if (switchUI.on)
+    if (switchUI.on)    {
+     NSDictionary * dict = [[NSDictionary alloc]initWithObjectsAndKeys:@"TEST",@"KEY",nil];
+        [NSNotificationCenter call_Notif:test_Const Dictionary:dict];
         self.view.backgroundColor = [UIColor grayColor];
+    }
     else
         self.view.backgroundColor = [UIColor whiteColor];
 }
 
--(void) notif_Method {
-    NSLog(@"notif_Method");
+-(void) notif_Method : (NSNotification *) notif {
+    
+    NSString * string = [notif.userInfo valueForKey:@"KEY"];
+    NSLog(@"notif_Method %@",string);
 }
 
 -(void) viewWillAppear:(BOOL)animated {
-    [NSNotificationCenter set_Notif:test_Const Selector:@selector(notif_Method) Object:self];
+    [NSNotificationCenter set_Notif:test_Const Selector:@selector(notif_Method:) Object:self];
 }
 
 -(void) viewDidAppear:(BOOL)animated {
